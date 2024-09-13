@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Cadastrar</a></li>
+                <li><a href="#catalog">Catálogo</a></li>
+                <li><a href="#search">Buscar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Bem-vindo ao nosso site de streaming!</h1>
+            <p>Explore nosso catálogo de filmes e séries.</p>
+        </section>
+        <section id="catalog">
+            <h1>Catálogo de Filmes</h1>
+            <ul id="filme-list">
+                <!-- filmes serão listados aqui -->
+            </ul>
+        </section>
+        <section id="search">
+            <h1>Buscar Filme</h1>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Buscar filme...">
+                <button id="search-button">Buscar</button>
+            </form>
+            <div id="search-result">
+
+                <!-- resultado da busca será exibido aqui -->
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
